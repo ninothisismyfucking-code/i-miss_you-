@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title> Imiss_you_nganii🥲 </title>
+
+    <!-- Game CSS -->
+    <link rel="stylesheet" href="game.css">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+</head>
+
+<body>
+
+    <!-- GAME AREA -->
+    <div id="gameArea">
+
+        <!-- Player -->
+        <div id="box"></div>
+
+        <!-- Stairs -->
+        <div class="stair step1"></div>
+        <div class="stair step2"></div>
+        <div class="stair step3"></div>
+        <div class="stair step4"></div>
+
+        <!-- Ground -->
+        <div class="ground"></div>
+
+        <!-- Heart -->
+        <div id="heart">❤️</div>
+
+    </div>
+
+
+    <!-- ENDING VIDEO -->
+    <video
+        id="endingVideo"
+        src="gustokarinniya.mp4"
+        autoplay
+        muted
+        playsinline
+    ></video>
+
+
+    <!-- WIN MESSAGE -->
+    <div id="winMessage">
+
+        <div class="heartAnimation">
+            
+        </div>
+
+        <span id="typedText"></span>
+
+    </div>
+
+
+    <!-- MOBILE CONTROLS -->
+    <div class="controls" id="controls">
+
+        <button class="up" type="button" aria-label="Move Up">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+
+        <button class="left" type="button" aria-label="Move Left">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+
+        <button class="down" type="button" aria-label="Move Down">
+            <i class="fa-solid fa-arrow-down"></i>
+        </button>
+
+        <button class="right" type="button" aria-label="Move Right">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+
+    <!-- JUMP SOUND -->
+    <audio
+        id="jumpSound"
+        src="jump4.mp4"
+        preload="auto"
+    ></audio>
+
+
+    <!-- GAME JAVASCRIPT -->
+    <script src="game.js"></script>
+
+</body>
+</html>
