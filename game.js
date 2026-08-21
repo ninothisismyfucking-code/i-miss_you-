@@ -304,7 +304,7 @@ function winGame() {
         winMessage.classList.add("show");
 
         typeWriter(
-            "Finally... you got it.\n\nGusto ko lang sabihin sa'yo na mahal pa rin kita. SORRY ah.🥲 hindi ko man masabi sa'yo nang harapan, \nGusto ko lang malaman mo na hanggang ngayon, ikaw paren. \nMarami man tayong pinagdaanan, hindi nagbago yung nararamdaman ko para sa'yo. \nSana mapatawad mo ako sa mga pagkakamali ko. \nMahal pa rin kita, sobra.❤️",
+            "i miss youuuu!!!!!!!!!!!!!!!!!!!!!!!!!!\n !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n changgala ka!!!😅🤣", 
             "typedText",
             40
         );
